@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#header {
+    width: 100%;
+    height: 100px;
+    background-color: #011f4b;
+    display: flex;
+    color: #b3cde0;
+    align-items: center;
+    justify-content: center;
+}
+
+#navigation {
+    width: 100%;
+    height: 50px;
+    background-color: #03396c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ #link {
+    text-decoration: none;
+    font-size: large;
+    font-weight: bold;
+    margin: 1%;
+    color: #b3cde0;
+ }
+
+#sectionArticleAside {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+
+    #sectionArticle {
+        width: 80%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+
+        #section {
+            width: 100%;
+            height: 50%;
+            background-color: #005b96;
+            display: flex;
+            color: #011f4b;
+            align-items: center;
+            justify-content: center;
+        }
+
+        #article {
+            width: 100%;
+            height: 50%;
+            background-color: #6497b1;
+            display: flex;
+            color: #03396c;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+
+    #aside {
+        width: 20%;
+        height: 100%;
+        background-color: #b3cde0;
+        display: flex;
+        color: #03396c;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+#footer {
+    width: 100%;
+    height: 60px;
+    background-color: #011f4b;
+    display: flex;
+    color: #b3cde0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
