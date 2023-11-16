@@ -1,7 +1,7 @@
 {
   "name": "ybonie",
-  "homepage": "https://yboniecabayasomogod.github.io/ybonie",
   "version": "0.1.0",
+  "homepage": "https://yboniecabayasomogod.github.io/ybonie",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
