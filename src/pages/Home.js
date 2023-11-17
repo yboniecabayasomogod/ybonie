@@ -9,7 +9,7 @@ const home = () => {
         <h1>Header</h1>
       </div>
       <div id="navigation">
-        <Link to="/" id="link">
+        <Link to="/ybonie" id="link">
           Home
         </Link>
         <Link to="/About" id="link">
