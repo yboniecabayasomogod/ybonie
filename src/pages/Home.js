@@ -6,34 +6,46 @@ const home = () => {
   return (
     <div>
       <div id="header">
-        <div><h1>logo</h1></div>
+        <div id="logo">
+          <h1>logo</h1>
+        </div>
       </div>
       <div id="navigation">
-        <Link to="/ybonie" id="link">
-          Home
-        </Link>
-        <Link to="/About" id="link">
-          About
-        </Link>
-        <Link to="/Contact" id="link">
-          Contact
-        </Link>
+        <div id="menu">
+          <Link to="/ybonie" id="link">
+            Home
+          </Link>
+          <Link to="/About" id="link">
+            About
+          </Link>
+          <Link to="/Contact" id="link">
+            Contact
+          </Link>
+        </div>
       </div>
       <div id="sectionArticleAside">
         <div id="sectionArticle">
           <div id="section">
-            <h1>section</h1>
+            <div id="sectionDetailed">
+              <h1>section</h1>
+            </div>
           </div>
           <div id="article">
-            <h1>article</h1>
+            <div id="articleDetailed">
+              <h1>article</h1>
+            </div>
           </div>
         </div>
         <div id="aside">
-          <h1>aside</h1>
+          <div id="sidebar">
+            <h1>aside</h1>
+          </div>
         </div>
       </div>
       <div id="footer">
-        <h1>footer</h1>
+        <div id="footerBottom">
+          <h1>footer</h1>
+        </div>
       </div>
     </div>
   );

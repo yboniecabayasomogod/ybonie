@@ -14,11 +14,11 @@ body::-webkit-scrollbar {
 #header {
     width: 100%;
     height: 100px;
-    background-color: #011f4b;
     display: flex;
     color: #b3cde0;
     align-items: center;
     justify-content: center;
+    padding: 5px;
 }
 
 #header:hover {
@@ -34,10 +34,20 @@ h1:hover {
     text-transform: uppercase;
 }
 
+#logo {
+    width: 100%;
+    height: 100%;
+    background-color: #011f4b;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 #navigation {
     width: 100%;
     height: 50px;
-    background-color: #03396c;
+    padding: 5px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -51,6 +61,17 @@ h1:hover {
 #navigation:not(:hover) {
     transition: width 0.3s ease-in-out, height 0.3s ease-in-out;
 }
+
+#menu {
+    width: 100%;
+    height: 100%;
+    background-color: #03396c;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
  #link {
     text-decoration: none;
     font-size: large;
@@ -74,7 +95,7 @@ h1:hover {
         #section {
             width: 100%;
             height: 50%;
-            background-color: #005b96;
+            padding: 5px;
             display: flex;
             color: #011f4b;
             align-items: center;
@@ -90,10 +111,20 @@ h1:hover {
             transition: width 0.3s ease-in-out, height 0.3s ease-in-out;
         }
 
+        #sectionDetailed {
+            width: 100%;
+            height: 100%;
+            background-color: #005b96;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
         #article {
             width: 100%;
             height: 50%;
-            background-color: #6497b1;
+            padding: 5px;
             display: flex;
             color: #03396c;
             display: flex;
@@ -109,12 +140,23 @@ h1:hover {
         #article:not(:hover) {
             transition: width 0.3s ease-in-out, height 0.3s ease-in-out;
         }
+
+        #articleDetailed {
+            width: 100%;
+            height: 100%;
+            background-color: #6497b1;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
     }
 
     #aside {
         width: 20%;
         height: 100%;
-        background-color: #b3cde0;
+        padding: 5px;
         display: flex;
         color: #03396c;
         justify-content: center;
@@ -129,12 +171,22 @@ h1:hover {
     #aside:not(:hover) {
         transition: width 0.3s ease-in-out, height 0.3s ease-in-out;
     }
+
+    #sidebar {
+        width: 100%;
+        height: 100%;
+        background-color: #b3cde0;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 }
 
 #footer {
     width: 100%;
     height: 60px;
-    background-color: #011f4b;
+    padding: 5px;
     display: flex;
     color: #b3cde0;
     display: flex;
@@ -149,6 +201,16 @@ h1:hover {
 
 #footer:not(:hover) {
     transition: width 0.3s ease-in-out, height 0.3s ease-in-out;
+}
+
+#footerBottom {
+    width: 100%;
+    height: 100%;
+    background-color: #011f4b;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 
