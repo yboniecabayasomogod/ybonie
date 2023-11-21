@@ -1,16 +1,10 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React from 'react'
+import Home from './Home'
 
-const home = () => {
+const Contact = () => {
   return (
-    <nav>
-      <ul>
-        <Link to="/ybonie">Home</Link>
-        <Link to="/About">About</Link>
-        <Link to="/Contact">Contact</Link>
-      </ul>
-    </nav>
-  );
-};
+    <div><Home></Home></div>
+  )
+}
 
-export default home;
+export default Contact

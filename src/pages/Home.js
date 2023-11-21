@@ -6,7 +6,7 @@ const home = () => {
   return (
     <div>
       <div id="header">
-        <h1>Header</h1>
+        <div><h1>logo</h1></div>
       </div>
       <div id="navigation">
         <Link to="/ybonie" id="link">
@@ -22,18 +22,18 @@ const home = () => {
       <div id="sectionArticleAside">
         <div id="sectionArticle">
           <div id="section">
-            <h1>Section</h1>
+            <h1>section</h1>
           </div>
           <div id="article">
             <h1>article</h1>
           </div>
         </div>
         <div id="aside">
-          <h1>Aside</h1>
+          <h1>aside</h1>
         </div>
       </div>
       <div id="footer">
-        <h1>Footer</h1>
+        <h1>footer</h1>
       </div>
     </div>
   );
