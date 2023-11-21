@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/ybonie/static/css/main.403fce68.css",
-    "main.js": "/ybonie/static/js/main.ffb8b08b.js",
+    "main.css": "/ybonie/static/css/main.f172117f.css",
+    "main.js": "/ybonie/static/js/main.281e346a.js",
     "static/js/787.7f582449.chunk.js": "/ybonie/static/js/787.7f582449.chunk.js",
     "index.html": "/ybonie/index.html",
-    "main.403fce68.css.map": "/ybonie/static/css/main.403fce68.css.map",
-    "main.ffb8b08b.js.map": "/ybonie/static/js/main.ffb8b08b.js.map",
+    "main.f172117f.css.map": "/ybonie/static/css/main.f172117f.css.map",
+    "main.281e346a.js.map": "/ybonie/static/js/main.281e346a.js.map",
     "787.7f582449.chunk.js.map": "/ybonie/static/js/787.7f582449.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.403fce68.css",
-    "static/js/main.ffb8b08b.js"
+    "static/css/main.f172117f.css",
+    "static/js/main.281e346a.js"
   ]
 }
